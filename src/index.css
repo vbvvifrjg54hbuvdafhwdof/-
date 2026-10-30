@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: #ffffff;
+    color: #111111;
+    font-family: 'Shippori Mincho', 'Noto Serif JP', 'Yu Mincho', 'Hiragino Mincho ProN', 'MS Mincho', serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Continuous vertical typesetting */
+.vertical-rl {
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  text-orientation: mixed;
+  line-break: strict;
+  word-break: normal;
+  direction: ltr;
+}
+
+/* Single continuous exam paper block */
+.kanbun-continuous-paper {
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;
+  text-orientation: mixed;
+  line-break: strict;
+  word-break: normal;
+  direction: ltr;
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+/* Minimalist scrollbar if pagination/scroll is used */
+.kanbun-exam-scroll::-webkit-scrollbar {
+  height: 4px;
+}
+.kanbun-exam-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.kanbun-exam-scroll::-webkit-scrollbar-thumb {
+  background: #e5e5e5;
+  border-radius: 2px;
+}

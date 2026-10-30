@@ -1,0 +1,6 @@
+{
+  "name": "漢文音読 - 大学入試長文漢文の反復音読学習アプリ",
+  "description": "共通テストや大学入試二次試験の長文漢文を、意味区分ごとに白文・送り仮名・返り点・現代語訳・注釈を自在に組み替えて繰り返し音読・反復学習できるWebアプリ。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
